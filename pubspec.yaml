@@ -1,0 +1,29 @@
+name: flutter_custom_keyboard
+description: A highly customizable Flutter keyboard widget with modern animations, haptic feedback, and cross-platform support. Perfect replacement for system keyboards in forms, login screens, and search fields.
+version: 1.1.1
+homepage: https://github.com/flutter-community/flutter_custom_keyboard
+repository: https://github.com/flutter-community/flutter_custom_keyboard
+issue_tracker: https://github.com/flutter-community/flutter_custom_keyboard/issues
+documentation: https://pub.dev/documentation/flutter_custom_keyboard/latest/
+
+topics:
+  - keyboard
+  - input
+  - ui
+  - widget
+  - animation
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
