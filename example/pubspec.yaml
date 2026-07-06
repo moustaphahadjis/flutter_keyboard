@@ -1,0 +1,22 @@
+name: flutter_custom_keyboard_example
+description: Example app demonstrating flutter_custom_keyboard package usage
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_custom_keyboard:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
